@@ -1,0 +1,222 @@
+Hint: You are currently not seeing messages from other users and the system.
+      Users in groups 'adm', 'systemd-journal', 'wheel' can see all messages.
+      Pass -q to turn off this notice.
+           PID: 1721570 (pt_main_thread)
+           UID: 1002 (kge)
+           GID: 1002 (kge)
+        Signal: 11 (SEGV)
+     Timestamp: Wed 2024-05-29 16:11:07 EDT (7s ago)
+  Command Line: /usr/bin/python -m ipykernel_launcher -f /home/kge/.local/share/jupyter/runtime/kernel-7eabbb39-b5b0-4e3d-9f3f-7e0f620f7ad8.json
+    Executable: /usr/bin/python3.12
+ Control Group: /user.slice/user-1002.slice/user@1002.service/tmux-spawn-4e2b4451-9b15-4732-ab16-d378946b91ea.scope
+          Unit: user@1002.service
+     User Unit: tmux-spawn-4e2b4451-9b15-4732-ab16-d378946b91ea.scope
+         Slice: user-1002.slice
+     Owner UID: 1002 (kge)
+       Boot ID: 0816d647bd9b41acb3ec0a37f78fd800
+    Machine ID: 0a63ff8064304dbda1387f8e704eeccc
+      Hostname: dell-r7615-01-accelerator.nvidia.eng.rdu2.redhat.com
+       Storage: /var/lib/systemd/coredump/core.pt_main_thread.1002.0816d647bd9b41acb3ec0a37f78fd800.1721570.1717013467000000.zst (present)
+  Size on Disk: 41.5M
+       Package: python3.12/3.12.3-2.fc40
+      build-id: 7efaf10c2c5c97b973534d6731c60a471f02d156
+       Message: Process 1721570 (pt_main_thread) of user 1002 dumped core.
+                
+                Module [dso] without build-id.
+                Module [dso] without build-id.
+                Module /home/kge/.local/lib/python3.12/site-packages/pyzmq.libs/libsodium-b135f62c.so.26.1.0 without build-id.
+                Module /home/kge/.local/lib/python3.12/site-packages/pyzmq.libs/libsodium-b135f62c.so.26.1.0
+                Module /home/kge/.local/lib/python3.12/site-packages/pyzmq.libs/libzmq-5dd2f677.so.5.2.5 without build-id.
+                Module /home/kge/.local/lib/python3.12/site-packages/pyzmq.libs/libzmq-5dd2f677.so.5.2.5
+                Module /home/kge/.local/lib/python3.12/site-packages/zmq/backend/cython/_zmq.cpython-312-x86_64-linux-gnu.so without build-id.
+                Module /home/kge/.local/lib/python3.12/site-packages/zmq/backend/cython/_zmq.cpython-312-x86_64-linux-gnu.so
+                Module libcaffe2_nvrtc.so from rpm python-torch-2.3.0-1.fc40.x86_64
+                Module libtriton.so from rpm python-triton-rocm-2.3.0-1.fc40.x86_64
+                Module _multiprocessing.cpython-312-x86_64-linux-gnu.so from rpm python3.12-3.12.3-2.fc40.x86_64
+                Module cmath.cpython-312-x86_64-linux-gnu.so from rpm python3.12-3.12.3-2.fc40.x86_64
+                Module grp.cpython-312-x86_64-linux-gnu.so from rpm python3.12-3.12.3-2.fc40.x86_64
+                Module _generator.cpython-312-x86_64-linux-gnu.so from rpm numpy-1.26.4-3.fc40.x86_64
+                Module _sfc64.cpython-312-x86_64-linux-gnu.so from rpm numpy-1.26.4-3.fc40.x86_64
+                Module _pcg64.cpython-312-x86_64-linux-gnu.so from rpm numpy-1.26.4-3.fc40.x86_64
+                Module _philox.cpython-312-x86_64-linux-gnu.so from rpm numpy-1.26.4-3.fc40.x86_64
+                Module _mt19937.cpython-312-x86_64-linux-gnu.so from rpm numpy-1.26.4-3.fc40.x86_64
+                Module _bounded_integers.cpython-312-x86_64-linux-gnu.so from rpm numpy-1.26.4-3.fc40.x86_64
+                Module _common.cpython-312-x86_64-linux-gnu.so from rpm numpy-1.26.4-3.fc40.x86_64
+                Module bit_generator.cpython-312-x86_64-linux-gnu.so from rpm numpy-1.26.4-3.fc40.x86_64
+                Module mtrand.cpython-312-x86_64-linux-gnu.so from rpm numpy-1.26.4-3.fc40.x86_64
+                Module _pocketfft_internal.cpython-312-x86_64-linux-gnu.so from rpm numpy-1.26.4-3.fc40.x86_64
+                Module _umath_linalg.cpython-312-x86_64-linux-gnu.so from rpm numpy-1.26.4-3.fc40.x86_64
+                Module _multiarray_tests.cpython-312-x86_64-linux-gnu.so from rpm numpy-1.26.4-3.fc40.x86_64
+                Module libopenblaso.so.0 from rpm openblas-0.3.26-4.fc40.x86_64
+                Module libflexiblas_openblas-openmp.so from rpm flexiblas-3.4.2-1.fc40.x86_64
+                Module libflexiblas_fallback_lapack.so from rpm flexiblas-3.4.2-1.fc40.x86_64
+                Module libflexiblas_netlib.so from rpm flexiblas-3.4.2-1.fc40.x86_64
+                Module libflexiblas.so.3 from rpm flexiblas-3.4.2-1.fc40.x86_64
+                Module _multiarray_umath.cpython-312-x86_64-linux-gnu.so from rpm numpy-1.26.4-3.fc40.x86_64
+                Module libzstd.so.1 from rpm zstd-1.5.6-1.fc40.x86_64
+                Module libdrm_amdgpu.so.1 from rpm libdrm-2.4.120-3.fc40.x86_64
+                Module libedit.so.0 from rpm libedit-3.1-50.20230828cvs.fc40.x86_64
+                Module libboost_atomic.so.1.83.0 from rpm boost-1.83.0-3.fc40.x86_64
+                Module libdrm.so.2 from rpm libdrm-2.4.120-3.fc40.x86_64
+                Module libelf.so.1 from rpm elfutils-0.191-4.fc40.x86_64
+                Module libhsakmt.so.1 from rpm hsakmt-1.0.6-38.rocm6.0.0.fc40.x86_64
+                Module libboost_filesystem.so.1.83.0 from rpm boost-1.83.0-3.fc40.x86_64
+                Module libnuma.so.1 from rpm numactl-2.0.16-5.fc40.x86_64
+                Module libhsa-runtime64.so.1 from rpm rocm-runtime-6.0.0-3.fc40.x86_64
+                Module libamd_comgr.so.2 from rpm rocm-compilersupport-17.1-5.fc40.x86_64
+                Module libcpuinfo.so.23.2.14 from rpm cpuinfo-23.2.14-3.giteb4a667.fc40.2.x86_64
+                Module libpthreadpool.so.23.8.29 from rpm pthreadpool-0.0^git20230829.4fe0e1e-4.fc40.x86_64
+                Module libsleef.so.3 from rpm sleef-3.5.1-31.fc40.x86_64
+                Module libopenblas.so.0 from rpm openblas-0.3.26-4.fc40.x86_64
+                Module libonnx.so.1.14.1 from rpm onnx-1.14.1-2.fc40.x86_64
+                Module libonnx_proto.so.1.14.1 from rpm onnx-1.14.1-2.fc40.x86_64
+                Module libc10.so from rpm python-torch-2.3.0-1.fc40.x86_64
+                Module libprotobuf.so.30 from rpm protobuf-3.19.6-8.fc40.x86_64
+                Module libc10_hip.so from rpm python-torch-2.3.0-1.fc40.x86_64
+                Module libtorch_hip.so from rpm python-torch-2.3.0-1.fc40.x86_64
+                Module libtorch_cpu.so from rpm python-torch-2.3.0-1.fc40.x86_64
+                Module libtorch.so from rpm python-torch-2.3.0-1.fc40.x86_64
+                Module libfmt.so.10 from rpm fmt-10.2.1-4.fc40.x86_64
+                Module libshm.so from rpm python-torch-2.3.0-1.fc40.x86_64
+                Module libtorch_python.so from rpm python-torch-2.3.0-1.fc40.x86_64
+                Module _C.cpython-312-x86_64-linux-gnu.so from rpm python-torch-2.3.0-1.fc40.x86_64
+                Module libtorch_global_deps.so from rpm python-torch-2.3.0-1.fc40.x86_64
+                Module libexpat.so.1 from rpm expat-2.6.2-1.fc40.x86_64
+                Module pyexpat.cpython-312-x86_64-linux-gnu.so from rpm python3.12-3.12.3-2.fc40.x86_64
+                Module libffi.so.8 from rpm libffi-3.4.4-7.fc40.x86_64
+                Module _ctypes.cpython-312-x86_64-linux-gnu.so from rpm python3.12-3.12.3-2.fc40.x86_64
+                Module resource.cpython-312-x86_64-linux-gnu.so from rpm python3.12-3.12.3-2.fc40.x86_64
+                Module _lsprof.cpython-312-x86_64-linux-gnu.so from rpm python3.12-3.12.3-2.fc40.x86_64
+                Module unicodedata.cpython-312-x86_64-linux-gnu.so from rpm python3.12-3.12.3-2.fc40.x86_64
+                Module _sqlite3.cpython-312-x86_64-linux-gnu.so from rpm python3.12-3.12.3-2.fc40.x86_64
+                Module _csv.cpython-312-x86_64-linux-gnu.so from rpm python3.12-3.12.3-2.fc40.x86_64
+                Module libuuid.so.1 from rpm util-linux-2.40.1-1.fc40.x86_64
+                Module _uuid.cpython-312-x86_64-linux-gnu.so from rpm python3.12-3.12.3-2.fc40.x86_64
+                Module liblzma.so.5 from rpm xz-5.4.6-3.fc40.x86_64
+                Module _lzma.cpython-312-x86_64-linux-gnu.so from rpm python3.12-3.12.3-2.fc40.x86_64
+                Module libbz2.so.1 from rpm bzip2-1.0.8-18.fc40.x86_64
+                Module _bz2.cpython-312-x86_64-linux-gnu.so from rpm python3.12-3.12.3-2.fc40.x86_64
+                Module termios.cpython-312-x86_64-linux-gnu.so from rpm python3.12-3.12.3-2.fc40.x86_64
+                Module libmpdec.so.3 from rpm mpdecimal-2.5.1-9.fc40.x86_64
+                Module _decimal.cpython-312-x86_64-linux-gnu.so from rpm python3.12-3.12.3-2.fc40.x86_64
+                Module libtinfo.so.6 from rpm ncurses-6.4-12.20240127.fc40.x86_64
+                Module libncursesw.so.6 from rpm ncurses-6.4-12.20240127.fc40.x86_64
+                Module _curses.cpython-312-x86_64-linux-gnu.so from rpm python3.12-3.12.3-2.fc40.x86_64
+                Module zlib.cpython-312-x86_64-linux-gnu.so from rpm python3.12-3.12.3-2.fc40.x86_64
+                Module _datetime.cpython-312-x86_64-linux-gnu.so from rpm python3.12-3.12.3-2.fc40.x86_64
+                Module libb2.so.1 from rpm libb2-0.98.1-11.fc40.x86_64
+                Module _blake2.cpython-312-x86_64-linux-gnu.so from rpm python3.12-3.12.3-2.fc40.x86_64
+                Module _hashlib.cpython-312-x86_64-linux-gnu.so from rpm python3.12-3.12.3-2.fc40.x86_64
+                Module _queue.cpython-312-x86_64-linux-gnu.so from rpm python3.12-3.12.3-2.fc40.x86_64
+                Module _asyncio.cpython-312-x86_64-linux-gnu.so from rpm python3.12-3.12.3-2.fc40.x86_64
+                Module _contextvars.cpython-312-x86_64-linux-gnu.so from rpm python3.12-3.12.3-2.fc40.x86_64
+                Module _opcode.cpython-312-x86_64-linux-gnu.so from rpm python3.12-3.12.3-2.fc40.x86_64
+                Module binascii.cpython-312-x86_64-linux-gnu.so from rpm python3.12-3.12.3-2.fc40.x86_64
+                Module libz.so.1 from rpm zlib-ng-2.1.6-2.fc40.x86_64
+                Module libcrypto.so.3 from rpm openssl-3.2.1-2.fc40.x86_64
+                Module libssl.so.3 from rpm openssl-3.2.1-2.fc40.x86_64
+                Module _ssl.cpython-312-x86_64-linux-gnu.so from rpm python3.12-3.12.3-2.fc40.x86_64
+                Module array.cpython-312-x86_64-linux-gnu.so from rpm python3.12-3.12.3-2.fc40.x86_64
+                Module _socket.cpython-312-x86_64-linux-gnu.so from rpm python3.12-3.12.3-2.fc40.x86_64
+                Module _heapq.cpython-312-x86_64-linux-gnu.so from rpm python3.12-3.12.3-2.fc40.x86_64
+                Module _sha2.cpython-312-x86_64-linux-gnu.so from rpm python3.12-3.12.3-2.fc40.x86_64
+                Module _random.cpython-312-x86_64-linux-gnu.so from rpm python3.12-3.12.3-2.fc40.x86_64
+                Module _bisect.cpython-312-x86_64-linux-gnu.so from rpm python3.12-3.12.3-2.fc40.x86_64
+                Module _pickle.cpython-312-x86_64-linux-gnu.so from rpm python3.12-3.12.3-2.fc40.x86_64
+                Module _struct.cpython-312-x86_64-linux-gnu.so from rpm python3.12-3.12.3-2.fc40.x86_64
+                Module select.cpython-312-x86_64-linux-gnu.so from rpm python3.12-3.12.3-2.fc40.x86_64
+                Module _posixsubprocess.cpython-312-x86_64-linux-gnu.so from rpm python3.12-3.12.3-2.fc40.x86_64
+                Module fcntl.cpython-312-x86_64-linux-gnu.so from rpm python3.12-3.12.3-2.fc40.x86_64
+                Module _json.cpython-312-x86_64-linux-gnu.so from rpm python3.12-3.12.3-2.fc40.x86_64
+                Module math.cpython-312-x86_64-linux-gnu.so from rpm python3.12-3.12.3-2.fc40.x86_64
+                Module libpython3.12.so.1.0 from rpm python3.12-3.12.3-2.fc40.x86_64
+                Module python3.12 from rpm python3.12-3.12.3-2.fc40.x86_64
+                Stack trace of thread 1721570:
+                #0  0x00007fe5afb61d3b PyErr_Occurred (libpython3.12.so.1.0 + 0x161d3b)
+                #1  0x00007fe5a09d6cd9 _ZN8pybind116detail9raise_errEP7_objectPKc.isra.0 (libtorch_python.so + 0x3d6cd9)
+                #2  0x00007fe5a09e0c82 _ZN8pybind116detail19translate_exceptionENSt15__exception_ptr13exception_ptrE (libtorch_python.so + 0x3e0c82)
+                #3  0x00007fe20fc15aa3 _ZN8pybind116detail27apply_exception_translatorsERSt12forward_listIPFvNSt15__exception_ptr13exception_ptrEESaIS5_EE (libtriton.so + 0x15aa3)
+                #4  0x00007fe20fc184d5 _ZN8pybind1112cpp_function10dispatcherEP7_objectS2_S2_.cold (libtriton.so + 0x184d5)
+                #5  0x00007fe5afb90706 cfunction_call (libpython3.12.so.1.0 + 0x190706)
+                #6  0x00007fe5afb68cc6 _PyObject_MakeTpCall (libpython3.12.so.1.0 + 0x168cc6)
+                #7  0x00007fe5afb716a4 _PyEval_EvalFrameDefault (libpython3.12.so.1.0 + 0x1716a4)
+                #8  0x00007fe5afb9cbc5 _PyVectorcall_Call (libpython3.12.so.1.0 + 0x19cbc5)
+                #9  0x00007fe5afc49df7 partial_call (libpython3.12.so.1.0 + 0x249df7)
+                #10 0x00007fe5afb68cc6 _PyObject_MakeTpCall (libpython3.12.so.1.0 + 0x168cc6)
+                #11 0x00007fe5afb881dc PyObject_Vectorcall (libpython3.12.so.1.0 + 0x1881dc)
+                #12 0x00007fe5afb716a4 _PyEval_EvalFrameDefault (libpython3.12.so.1.0 + 0x1716a4)
+                #13 0x00007fe5afbfbe24 PyEval_EvalCode (libpython3.12.so.1.0 + 0x1fbe24)
+                #14 0x00007fe5afc196b7 builtin_exec (libpython3.12.so.1.0 + 0x2196b7)
+                #15 0x00007fe5afb74c25 _PyEval_EvalFrameDefault (libpython3.12.so.1.0 + 0x174c25)
+                #16 0x00007fe5afbae0b2 gen_send_ex2 (libpython3.12.so.1.0 + 0x1ae0b2)
+                #17 0x00007fe5afc6b10c gen_send_ex (libpython3.12.so.1.0 + 0x26b10c)
+                #18 0x00007fe5afb9a181 method_vectorcall_O (libpython3.12.so.1.0 + 0x19a181)
+                #19 0x00007fe5afb881dc PyObject_Vectorcall (libpython3.12.so.1.0 + 0x1881dc)
+                #20 0x00007fe5afb716a4 _PyEval_EvalFrameDefault (libpython3.12.so.1.0 + 0x1716a4)
+                #21 0x00007fe5afbaf0a8 method_vectorcall (libpython3.12.so.1.0 + 0x1af0a8)
+                #22 0x00007fe5afb9cbc5 _PyVectorcall_Call (libpython3.12.so.1.0 + 0x19cbc5)
+                #23 0x00007fe5afb76d14 _PyEval_EvalFrameDefault (libpython3.12.so.1.0 + 0x176d14)
+                #24 0x00007fe5afbae0b2 gen_send_ex2 (libpython3.12.so.1.0 + 0x1ae0b2)
+                #25 0x00007fe5aeb011a0 task_step_impl (_asyncio.cpython-312-x86_64-linux-gnu.so + 0x71a0)
+                #26 0x00007fe5aeb01e00 task_step (_asyncio.cpython-312-x86_64-linux-gnu.so + 0x7e00)
+                #27 0x00007fe5afb901cb cfunction_vectorcall_O (libpython3.12.so.1.0 + 0x1901cb)
+                #28 0x00007fe5afc9720f _PyObject_VectorcallTstate.lto_priv.20 (libpython3.12.so.1.0 + 0x29720f)
+                #29 0x00007fe5afb2dfd0 context_run (libpython3.12.so.1.0 + 0x12dfd0)
+                #30 0x00007fe5afb8863c cfunction_vectorcall_FASTCALL_KEYWORDS (libpython3.12.so.1.0 + 0x18863c)
+                #31 0x00007fe5afb76d14 _PyEval_EvalFrameDefault (libpython3.12.so.1.0 + 0x176d14)
+                #32 0x00007fe5afbfbe24 PyEval_EvalCode (libpython3.12.so.1.0 + 0x1fbe24)
+                #33 0x00007fe5afc196b7 builtin_exec (libpython3.12.so.1.0 + 0x2196b7)
+                #34 0x00007fe5afb8863c cfunction_vectorcall_FASTCALL_KEYWORDS (libpython3.12.so.1.0 + 0x18863c)
+                #35 0x00007fe5afb881dc PyObject_Vectorcall (libpython3.12.so.1.0 + 0x1881dc)
+                #36 0x00007fe5afb716a4 _PyEval_EvalFrameDefault (libpython3.12.so.1.0 + 0x1716a4)
+                #37 0x00007fe5afc2d0de pymain_run_module (libpython3.12.so.1.0 + 0x22d0de)
+                #38 0x00007fe5afc2ca45 Py_RunMain (libpython3.12.so.1.0 + 0x22ca45)
+                #39 0x00007fe5afbe403c Py_BytesMain (libpython3.12.so.1.0 + 0x1e403c)
+                #40 0x00007fe5af83d088 __libc_start_call_main (libc.so.6 + 0x2a088)
+                #41 0x00007fe5af83d14b __libc_start_main@@GLIBC_2.34 (libc.so.6 + 0x2a14b)
+                #42 0x0000560a6ca45095 _start (python3.12 + 0x1095)
+                
+                Stack trace of thread 1721574:
+                #0  0x00007fe5af92b7a2 epoll_wait (libc.so.6 + 0x1187a2)
+                #1  0x00007fe5af3e7fe6 select_epoll_poll (select.cpython-312-x86_64-linux-gnu.so + 0x2fe6)
+                #2  0x00007fe5afb7497c _PyEval_EvalFrameDefault (libpython3.12.so.1.0 + 0x17497c)
+                #3  0x00007fe5afbaf122 method_vectorcall (libpython3.12.so.1.0 + 0x1af122)
+                #4  0x00007fe5afb76d14 _PyEval_EvalFrameDefault (libpython3.12.so.1.0 + 0x176d14)
+                #5  0x00007fe5afbaf122 method_vectorcall (libpython3.12.so.1.0 + 0x1af122)
+                #6  0x00007fe5afc759fc thread_run (libpython3.12.so.1.0 + 0x2759fc)
+                #7  0x00007fe5afc3168c pythread_wrapper (libpython3.12.so.1.0 + 0x23168c)
+                #8  0x00007fe5af8a91b7 start_thread (libc.so.6 + 0x961b7)
+                #9  0x00007fe5af92b39c __clone3 (libc.so.6 + 0x11839c)
+                
+                Stack trace of thread 1721573:
+                #0  0x00007fe5af92b7a2 epoll_wait (libc.so.6 + 0x1187a2)
+                #1  0x00007fe5af2e69ed n/a (/home/kge/.local/lib/python3.12/site-packages/pyzmq.libs/libzmq-5dd2f677.so.5.2.5 + 0x369ed)
+                #2  0x00007fe5af307e77 n/a (/home/kge/.local/lib/python3.12/site-packages/pyzmq.libs/libzmq-5dd2f677.so.5.2.5 + 0x57e77)
+                #3  0x00007fe5af331a2a n/a (/home/kge/.local/lib/python3.12/site-packages/pyzmq.libs/libzmq-5dd2f677.so.5.2.5 + 0x81a2a)
+                #4  0x00007fe5af8a91b7 start_thread (libc.so.6 + 0x961b7)
+                #5  0x00007fe5af92b39c __clone3 (libc.so.6 + 0x11839c)
+                
+                Stack trace of thread 1721576:
+                #0  0x00007fe5af92b7a2 epoll_wait (libc.so.6 + 0x1187a2)
+                #1  0x00007fe5af2e69ed n/a (/home/kge/.local/lib/python3.12/site-packages/pyzmq.libs/libzmq-5dd2f677.so.5.2.5 + 0x369ed)
+                #2  0x00007fe5af307e77 n/a (/home/kge/.local/lib/python3.12/site-packages/pyzmq.libs/libzmq-5dd2f677.so.5.2.5 + 0x57e77)
+                #3  0x00007fe5af331a2a n/a (/home/kge/.local/lib/python3.12/site-packages/pyzmq.libs/libzmq-5dd2f677.so.5.2.5 + 0x81a2a)
+                #4  0x00007fe5af8a91b7 start_thread (libc.so.6 + 0x961b7)
+                #5  0x00007fe5af92b39c __clone3 (libc.so.6 + 0x11839c)
+                
+                Stack trace of thread 1721572:
+                #0  0x00007fe5af92b7a2 epoll_wait (libc.so.6 + 0x1187a2)
+                #1  0x00007fe5af2e69ed n/a (/home/kge/.local/lib/python3.12/site-packages/pyzmq.libs/libzmq-5dd2f677.so.5.2.5 + 0x369ed)
+                #2  0x00007fe5af307e77 n/a (/home/kge/.local/lib/python3.12/site-packages/pyzmq.libs/libzmq-5dd2f677.so.5.2.5 + 0x57e77)
+                #3  0x00007fe5af331a2a n/a (/home/kge/.local/lib/python3.12/site-packages/pyzmq.libs/libzmq-5dd2f677.so.5.2.5 + 0x81a2a)
+                #4  0x00007fe5af8a91b7 start_thread (libc.so.6 + 0x961b7)
+                #5  0x00007fe5af92b39c __clone3 (libc.so.6 + 0x11839c)
+                
+                Stack trace of thread 1721575:
+                #0  0x00007fe5af91d72d __poll (libc.so.6 + 0x10a72d)
+                #1  0x00007fe5af3483a9 n/a (/home/kge/.local/lib/python3.12/site-packages/pyzmq.libs/libzmq-5dd2f677.so.5.2.5 + 0x983a9)
+                #2  0x00007fe5af3092c4 n/a (/home/kge/.local/lib/python3.12/site-packages/pyzmq.libs/libzmq-5dd2f677.so.5.2.5 + 0x592c4)
+                #3  0x00007fe5af308c47 n/a (/home/kge/.local/lib/python3.12/site-packages/pyzmq.libs/libzmq-5dd2f677.so.5.2.5 + 0x58c47)
+                #4  0x00007fe5af34a07f n/a (/home/kge/.local/lib/python3.12/site-packages/pyzmq.libs/libzmq-5dd2f677.so.5.2.5 + 0x9a07f)
+                #5  0x00007fe5af3bc9c5 n/a (/home/kge/.local/lib/python3.12/site-packages/zmq/backend/cython/_zmq.cpython-312-x86_64-linux-gnu.so + 0x219c5)
+                ELF object binary architecture: AMD x86-64
